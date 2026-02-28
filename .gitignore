@@ -1,0 +1,19 @@
+# datasets
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.csv
+*.xlsx
+
+# binaries
+*.exe
+*.out
+
+# build
+build/
+dist/
+
+# vscode
+.vscode/
