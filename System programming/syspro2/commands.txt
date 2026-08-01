@@ -1,0 +1,170 @@
+submit sleep 1
+submit ls -l /usr/include
+submit sleep 3
+submit ls -l /usr/include
+submit sleep 1
+submit sleep 2
+submit sleep 2
+show-workers
+submit sleep 3
+submit sleep 1
+submit sleep 1
+submit grep 'main' Makefile
+status-all
+submit sleep 5
+submit sleep 1
+submit sleep 2
+submit ls -l /usr/include
+submit sleep 1
+show-active
+submit sleep 5
+submit sleep 1
+submit sleep 2
+submit sleep 2
+submit sleep 1
+submit sleep 2
+show-finished
+submit ls -l /usr/include
+submit sleep 2
+submit grep 'main' jms_coord.c
+submit sleep 1
+submit sleep 2
+submit whoami
+status 5
+status 10
+submit sleep 1
+submit sleep 2
+submit sleep 2
+submit sleep 5
+submit sleep 1
+submit sleep 2
+submit grep 'main' jms_console.c
+status-all 5
+submit du -h /usr/share/doc
+submit sleep 2
+submit sleep 2
+submit sleep 2
+show-workers
+submit echo "Test logging 1"
+submit echo "Test logging 2"
+submit sleep 2
+submit sleep 5
+submit sleep 5
+submit du -h /usr/share/doc
+submit sleep 1
+submit sleep 2
+submit date
+status-all
+submit sleep 1
+submit sleep 3
+submit whoami
+submit sleep 1
+submit sleep 1
+submit sleep 3
+submit sleep 2
+show-active
+submit grep 'main' jms_coord.c
+submit sleep 2
+submit ls -l /usr/include
+submit sleep 1
+submit sleep 3
+submit sleep 3
+submit sleep 3
+submit sleep 1
+submit sleep 1
+show-finished
+submit sleep 1
+submit sleep 2
+submit sleep 2
+submit sleep 2
+submit sleep 2
+submit grep 'main' jms_coord.c
+submit grep 'main' Makefile
+submit sleep 2
+submit sleep 2
+submit sleep 2
+submit echo "Halfway there"
+submit sleep 2
+submit sleep 2
+submit sleep 2
+submit uptime
+status-all 10
+submit echo "Testing queue load"
+submit sleep 5
+submit sleep 1
+submit sleep 1
+submit sleep 1
+submit sleep 5
+show-workers
+submit sleep 1
+submit sleep 2
+submit sleep 5
+submit sleep 3
+submit sleep 1
+submit sleep 1
+submit sleep 5
+submit sleep 5
+submit sleep 1
+submit sleep 2
+status 50
+status 60
+submit sleep 1
+submit sleep 3
+submit sleep 2
+submit sleep 2
+submit echo "Checking log"
+submit sleep 3
+submit sleep 3
+submit sleep 3
+submit sleep 1
+show-active
+submit sleep 3
+submit date
+submit sleep 1
+submit sleep 1
+submit grep 'main' jms_console.c
+submit sleep 5
+submit sleep 2
+submit sleep 5
+submit echo "Checking log again"
+status-all
+submit echo "Checking log 3"
+submit sleep 5
+submit sleep 5
+submit sleep 1
+submit sleep 2
+submit sleep 1
+submit sleep 2
+show-workers
+submit sleep 1
+submit sleep 1
+submit sleep 1
+submit sleep 3
+submit sleep 2
+submit sleep 2
+submit sleep 5
+submit du -h /usr/share/doc
+submit sleep 2
+submit sleep 1
+submit sleep 1
+show-finished
+submit sleep 2
+submit whoami
+submit sleep 1
+submit echo "Final log check"
+submit sleep 2
+submit sleep 2
+submit sleep 2
+status-all 3
+submit sleep 2
+submit sleep 5
+submit sleep 2
+submit sleep 1
+submit sleep 2
+submit sleep 1
+submit sleep 1
+submit sleep 2
+submit sleep 2
+show-active
+show-workers
+shutdown
